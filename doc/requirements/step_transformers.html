@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Step Definitions and Transforms
+  
+    &mdash; Documentation by YARD 0.9.20
+  
+</title>
+
+  <link rel="stylesheet" href="../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../css/common.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../css/cucumber.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "requirements::step_transformers";
+  relpath = '../';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../js/cucumber.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="../stepdefinition_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="../_index.html">Index (s)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../requirements.html" title="requirements (requirements)">requirements</a></span></span>
+     &raquo; 
+    <span class="title">step_transformers</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="feature_list_link"
+        href="../feature_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><div class="requirements">
+  <div class="title">Step Definitions &amp; Transforms</div>
+
+  <div class="summary">
+    <div>10<a href="#step_definitions">Step Definitions</a></div>
+    <div>0<a href="#step_transforms">Step Transforms</a></div>
+    <div>16<a href="#undefined_steps">Undefined Steps</a></div>
+  </div>
+
+</div><div class="title">
+  
+     <a class="control" id="stepdefinition">[Collapse All]</a>
+     <div style="clear: right;"></div>
+   
+ 
+  
+    <a name="step_definitions">
+  
+  <div class="name">Step Definitions</div>
+</div>
+
+
+
+<div class="transformer stepdefinition
+                        nodefinitions
+                        ">
+  <a name="step_definition1-stepdefinition"></a>
+  <div class="title">
+    <span class="pre">Dado</span>
+    <span class="name">'que eu quero comprar {string} do {string}'</span>
+    <div style="float: right;">
+      <a href="http://rubular.com/?regex='que+eu+quero+comprar+%7Bstring%7D+do+%7Bstring%7D'" target="_blank">Rubular</a>
+      
+      | UNUSED
+      <a class="stepdef" href="#">[Collapse]</a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+
+  <div class="details">
+    
+    <div class="meta" style="clear: right;">
+      <div class="file">features/step_definitions/cart_steps.rb:3</div>
+    </div>
+    
+    <!-- Comments -->
+    <div>
+      
+    </div>
+    
+
+    <!-- Source Code -->
+    <div class="method_details_list">
+      <table class="source_code">
+        <tr>
+          <td>
+            <pre class="lines">3
+4
+5
+6</pre>
+          </td>
+          <td>
+            <pre class="code"><span class='const'>Dado</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>que eu quero comprar {string} do {string}</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_game'>game</span><span class='comma'>,</span> <span class='id identifier rubyid_category'>category</span><span class='op'>|</span>
+  <span class='ivar'>@screen</span><span class='period'>.</span><span class='id identifier rubyid_home'>home</span><span class='period'>.</span><span class='id identifier rubyid_choose_category'>choose_category</span><span class='lparen'>(</span><span class='id identifier rubyid_category'>category</span><span class='rparen'>)</span>
+  <span class='ivar'>@screen</span><span class='period'>.</span><span class='id identifier rubyid_product'>product</span><span class='period'>.</span><span class='id identifier rubyid_go_product'>go_product</span><span class='lparen'>(</span><span class='id identifier rubyid_game'>game</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Matching Step Instances -->
+    
+    <div class="steps">
+      
+      <div class="undefined">No steps were found to match this step definition.</div>
+      
+    </div>
+    
+  </div>
+
+  <div style="margin: 30px 20px; border-top: 1px dotted #AAA;"></div>
+
+</div>
+
+
+
+<div class="transformer stepdefinition
+                        nodefinitions
+                        ">
+  <a name="step_definition2-stepdefinition"></a>
+  <div class="title">
+    <span class="pre">Quando</span>
+    <span class="name">'adiciono este item ao carrinho'</span>
+    <div style="float: right;">
+      <a href="http://rubular.com/?regex='adiciono+este+item+ao+carrinho'" target="_blank">Rubular</a>
+      
+      | UNUSED
+      <a class="stepdef" href="#">[Collapse]</a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+
+  <div class="details">
+    
+    <div class="meta" style="clear: right;">
+      <div class="file">features/step_definitions/cart_steps.rb:8</div>
+    </div>
+    
+    <!-- Comments -->
+    <div>
+      
+    </div>
+    
+
+    <!-- Source Code -->
+    <div class="method_details_list">
+      <table class="source_code">
+        <tr>
+          <td>
+            <pre class="lines">8
+9
+10</pre>
+          </td>
+          <td>
+            <pre class="code"><span class='const'>Quando</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>adiciono este item ao carrinho</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='kw'>do</span>
+  <span class='ivar'>@screen</span><span class='period'>.</span><span class='id identifier rubyid_product'>product</span><span class='period'>.</span><span class='id identifier rubyid_add_to_cart'>add_to_cart</span>
+<span class='kw'>end</span></pre>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Matching Step Instances -->
+    
+    <div class="steps">
+      
+      <div class="undefined">No steps were found to match this step definition.</div>
+      
+    </div>
+    
+  </div>
+
+  <div style="margin: 30px 20px; border-top: 1px dotted #AAA;"></div>
+
+</div>
+
+
+
+<div class="transformer stepdefinition
+                        nodefinitions
+                        ">
+  <a name="step_definition3-stepdefinition"></a>
+  <div class="title">
+    <span class="pre">Quando</span>
+    <span class="name">'preciso fazer login para adicionar o produto'</span>
+    <div style="float: right;">
+      <a href="http://rubular.com/?regex='preciso+fazer+login+para+adicionar+o+produto'" target="_blank">Rubular</a>
+      
+      | UNUSED
+      <a class="stepdef" href="#">[Collapse]</a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+
+  <div class="details">
+    
+    <div class="meta" style="clear: right;">
+      <div class="file">features/step_definitions/cart_steps.rb:12</div>
+    </div>
+    
+    <!-- Comments -->
+    <div>
+      
+    </div>
+    
+
+    <!-- Source Code -->
+    <div class="method_details_list">
+      <table class="source_code">
+        <tr>
+          <td>
+            <pre class="lines">12
+13
+14
+15</pre>
+          </td>
+          <td>
+            <pre class="code"><span class='const'>Quando</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>preciso fazer login para adicionar o produto</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='kw'>do</span>
+  <span class='ivar'>@screen</span><span class='period'>.</span><span class='id identifier rubyid_login'>login</span><span class='period'>.</span><span class='id identifier rubyid_with'>with</span><span class='lparen'>(</span><span class='ivar'>@user</span><span class='lbracket'>[</span><span class='symbol'>:email</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='ivar'>@user</span><span class='lbracket'>[</span><span class='symbol'>:password</span><span class='rbracket'>]</span><span class='rparen'>)</span>
+  <span class='ivar'>@screen</span><span class='period'>.</span><span class='id identifier rubyid_product'>product</span><span class='period'>.</span><span class='id identifier rubyid_add_to_cart'>add_to_cart</span>
+<span class='kw'>end</span></pre>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Matching Step Instances -->
+    
+    <div class="steps">
+      
+      <div class="undefined">No steps were found to match this step definition.</div>
+      
+    </div>
+    
+  </div>
+
+  <div style="margin: 30px 20px; border-top: 1px dotted #AAA;"></div>
+
+</div>
+
+
+
+<div class="transformer stepdefinition
+                        nodefinitions
+                        ">
+  <a name="step_definition4-stepdefinition"></a>
+  <div class="title">
+    <span class="pre">Entao</span>
+    <span class="name">'devo ver o alerta {string}'</span>
+    <div style="float: right;">
+      <a href="http://rubular.com/?regex='devo+ver+o+alerta+%7Bstring%7D'" target="_blank">Rubular</a>
+      
+      | UNUSED
+      <a class="stepdef" href="#">[Collapse]</a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+
+  <div class="details">
+    
+    <div class="meta" style="clear: right;">
+      <div class="file">features/step_definitions/cart_steps.rb:17</div>
+    </div>
+    
+    <!-- Comments -->
+    <div>
+      
+    </div>
+    
+
+    <!-- Source Code -->
+    <div class="method_details_list">
+      <table class="source_code">
+        <tr>
+          <td>
+            <pre class="lines">17
+18
+19</pre>
+          </td>
+          <td>
+            <pre class="code"><span class='const'>Entao</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>devo ver o alerta {string}</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_message'>message</span><span class='op'>|</span>
+  <span class='id identifier rubyid_expect'>expect</span><span class='lparen'>(</span><span class='ivar'>@screen</span><span class='period'>.</span><span class='id identifier rubyid_popup'>popup</span><span class='period'>.</span><span class='id identifier rubyid_text'>text</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_to'>to</span> <span class='id identifier rubyid_eql'>eql</span> <span class='id identifier rubyid_message'>message</span>
+<span class='kw'>end</span></pre>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Matching Step Instances -->
+    
+    <div class="steps">
+      
+      <div class="undefined">No steps were found to match this step definition.</div>
+      
+    </div>
+    
+  </div>
+
+  <div style="margin: 30px 20px; border-top: 1px dotted #AAA;"></div>
+
+</div>
+
+
+
+<div class="transformer stepdefinition
+                        nodefinitions
+                        ">
+  <a name="step_definition5-stepdefinition"></a>
+  <div class="title">
+    <span class="pre">Dado</span>
+    <span class="name">'que acesso a tela de login'</span>
+    <div style="float: right;">
+      <a href="http://rubular.com/?regex='que+acesso+a+tela+de+login'" target="_blank">Rubular</a>
+      
+      | UNUSED
+      <a class="stepdef" href="#">[Collapse]</a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+
+  <div class="details">
+    
+    <div class="meta" style="clear: right;">
+      <div class="file">features/step_definitions/login_steps.rb:3</div>
+    </div>
+    
+    <!-- Comments -->
+    <div>
+      
+    </div>
+    
+
+    <!-- Source Code -->
+    <div class="method_details_list">
+      <table class="source_code">
+        <tr>
+          <td>
+            <pre class="lines">3
+4
+5</pre>
+          </td>
+          <td>
+            <pre class="code"><span class='const'>Dado</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>que acesso a tela de login</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='kw'>do</span>
+  <span class='ivar'>@screen</span><span class='period'>.</span><span class='id identifier rubyid_home'>home</span><span class='period'>.</span><span class='id identifier rubyid_go_account'>go_account</span>
+<span class='kw'>end</span></pre>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Matching Step Instances -->
+    
+    <div class="steps">
+      
+      <div class="undefined">No steps were found to match this step definition.</div>
+      
+    </div>
+    
+  </div>
+
+  <div style="margin: 30px 20px; border-top: 1px dotted #AAA;"></div>
+
+</div>
+
+
+
+<div class="transformer stepdefinition
+                        nodefinitions
+                        ">
+  <a name="step_definition6-stepdefinition"></a>
+  <div class="title">
+    <span class="pre">Quando</span>
+    <span class="name">'eu faço login com {string} e {string}'</span>
+    <div style="float: right;">
+      <a href="http://rubular.com/?regex='eu+fa%C3%A7o+login+com+%7Bstring%7D+e+%7Bstring%7D'" target="_blank">Rubular</a>
+      
+      | UNUSED
+      <a class="stepdef" href="#">[Collapse]</a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+
+  <div class="details">
+    
+    <div class="meta" style="clear: right;">
+      <div class="file">features/step_definitions/login_steps.rb:7</div>
+    </div>
+    
+    <!-- Comments -->
+    <div>
+      
+    </div>
+    
+
+    <!-- Source Code -->
+    <div class="method_details_list">
+      <table class="source_code">
+        <tr>
+          <td>
+            <pre class="lines">7
+8
+9</pre>
+          </td>
+          <td>
+            <pre class="code"><span class='const'>Quando</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>eu faço login com {string} e {string}</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_email'>email</span><span class='comma'>,</span> <span class='id identifier rubyid_password'>password</span><span class='op'>|</span>
+  <span class='ivar'>@screen</span><span class='period'>.</span><span class='id identifier rubyid_login'>login</span><span class='period'>.</span><span class='id identifier rubyid_with'>with</span><span class='lparen'>(</span><span class='id identifier rubyid_email'>email</span><span class='comma'>,</span> <span class='id identifier rubyid_password'>password</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Matching Step Instances -->
+    
+    <div class="steps">
+      
+      <div class="undefined">No steps were found to match this step definition.</div>
+      
+    </div>
+    
+  </div>
+
+  <div style="margin: 30px 20px; border-top: 1px dotted #AAA;"></div>
+
+</div>
+
+
+
+<div class="transformer stepdefinition
+                        nodefinitions
+                        ">
+  <a name="step_definition7-stepdefinition"></a>
+  <div class="title">
+    <span class="pre">Quando</span>
+    <span class="name">'logo sem sucesso {int} vezes'</span>
+    <div style="float: right;">
+      <a href="http://rubular.com/?regex='logo+sem+sucesso+%7Bint%7D+vezes'" target="_blank">Rubular</a>
+      
+      | UNUSED
+      <a class="stepdef" href="#">[Collapse]</a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+
+  <div class="details">
+    
+    <div class="meta" style="clear: right;">
+      <div class="file">features/step_definitions/login_steps.rb:11</div>
+    </div>
+    
+    <!-- Comments -->
+    <div>
+      
+    </div>
+    
+
+    <!-- Source Code -->
+    <div class="method_details_list">
+      <table class="source_code">
+        <tr>
+          <td>
+            <pre class="lines">11
+12
+13
+14
+15
+16
+17
+18
+19</pre>
+          </td>
+          <td>
+            <pre class="code"><span class='const'>Quando</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>logo sem sucesso {int} vezes</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_tentativas'>tentativas</span><span class='op'>|</span>
+  <span class='id identifier rubyid_tentativas'>tentativas</span><span class='period'>.</span><span class='id identifier rubyid_times'>times</span> <span class='kw'>do</span>
+    <span class='id identifier rubyid_steps'>steps</span> <span class='tstring'><span class='tstring_beg'>%(</span><span class='tstring_content'>
+      Quando eu faço login com &quot;tony@stark.com&quot; e &quot;123pass&quot;
+    </span><span class='tstring_end'>)</span></span>
+    <span class='id identifier rubyid_expect'>expect</span><span class='lparen'>(</span><span class='ivar'>@screen</span><span class='period'>.</span><span class='id identifier rubyid_login'>login</span><span class='period'>.</span><span class='id identifier rubyid_popup'>popup</span><span class='period'>.</span><span class='id identifier rubyid_displayed?'>displayed?</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_to'>to</span> <span class='id identifier rubyid_be'>be</span> <span class='kw'>true</span>
+    <span class='id identifier rubyid_back'>back</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Matching Step Instances -->
+    
+    <div class="steps">
+      
+      <div class="undefined">No steps were found to match this step definition.</div>
+      
+    </div>
+    
+  </div>
+
+  <div style="margin: 30px 20px; border-top: 1px dotted #AAA;"></div>
+
+</div>
+
+
+
+<div class="transformer stepdefinition
+                        nodefinitions
+                        ">
+  <a name="step_definition8-stepdefinition"></a>
+  <div class="title">
+    <span class="pre">Quando</span>
+    <span class="name">'faço login na última tentativa'</span>
+    <div style="float: right;">
+      <a href="http://rubular.com/?regex='fa%C3%A7o+login+na+%C3%BAltima+tentativa'" target="_blank">Rubular</a>
+      
+      | UNUSED
+      <a class="stepdef" href="#">[Collapse]</a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+
+  <div class="details">
+    
+    <div class="meta" style="clear: right;">
+      <div class="file">features/step_definitions/login_steps.rb:21</div>
+    </div>
+    
+    <!-- Comments -->
+    <div>
+      
+    </div>
+    
+
+    <!-- Source Code -->
+    <div class="method_details_list">
+      <table class="source_code">
+        <tr>
+          <td>
+            <pre class="lines">21
+22
+23
+24
+25</pre>
+          </td>
+          <td>
+            <pre class="code"><span class='const'>Quando</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>faço login na última tentativa</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='kw'>do</span>
+  <span class='id identifier rubyid_steps'>steps</span> <span class='tstring'><span class='tstring_beg'>%(</span><span class='tstring_content'>
+    Quando eu faço login com &quot;tony@stark.com&quot; e &quot;pass123&quot;
+  </span><span class='tstring_end'>)</span></span>
+<span class='kw'>end</span></pre>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Matching Step Instances -->
+    
+    <div class="steps">
+      
+      <div class="undefined">No steps were found to match this step definition.</div>
+      
+    </div>
+    
+  </div>
+
+  <div style="margin: 30px 20px; border-top: 1px dotted #AAA;"></div>
+
+</div>
+
+
+
+<div class="transformer stepdefinition
+                        nodefinitions
+                        ">
+  <a name="step_definition9-stepdefinition"></a>
+  <div class="title">
+    <span class="pre">Entao</span>
+    <span class="name">'posso ver a tela minha conta'</span>
+    <div style="float: right;">
+      <a href="http://rubular.com/?regex='posso+ver+a+tela+minha+conta'" target="_blank">Rubular</a>
+      
+      | UNUSED
+      <a class="stepdef" href="#">[Collapse]</a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+
+  <div class="details">
+    
+    <div class="meta" style="clear: right;">
+      <div class="file">features/step_definitions/login_steps.rb:27</div>
+    </div>
+    
+    <!-- Comments -->
+    <div>
+      
+    </div>
+    
+
+    <!-- Source Code -->
+    <div class="method_details_list">
+      <table class="source_code">
+        <tr>
+          <td>
+            <pre class="lines">27
+28
+29
+30</pre>
+          </td>
+          <td>
+            <pre class="code"><span class='const'>Entao</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>posso ver a tela minha conta</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='kw'>do</span>
+  <span class='ivar'>@screen</span><span class='period'>.</span><span class='id identifier rubyid_home'>home</span><span class='period'>.</span><span class='id identifier rubyid_go_account'>go_account</span>
+  <span class='id identifier rubyid_expect'>expect</span><span class='lparen'>(</span><span class='ivar'>@screen</span><span class='period'>.</span><span class='id identifier rubyid_my_account'>my_account</span><span class='period'>.</span><span class='id identifier rubyid_view'>view</span><span class='period'>.</span><span class='id identifier rubyid_displayed?'>displayed?</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_to'>to</span> <span class='id identifier rubyid_be'>be</span> <span class='kw'>true</span>
+<span class='kw'>end</span></pre>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Matching Step Instances -->
+    
+    <div class="steps">
+      
+      <div class="undefined">No steps were found to match this step definition.</div>
+      
+    </div>
+    
+  </div>
+
+  <div style="margin: 30px 20px; border-top: 1px dotted #AAA;"></div>
+
+</div>
+
+
+
+<div class="transformer stepdefinition
+                        nodefinitions
+                        ">
+  <a name="step_definition10-stepdefinition"></a>
+  <div class="title">
+    <span class="pre">Entao</span>
+    <span class="name">'devo ver {string} como popup'</span>
+    <div style="float: right;">
+      <a href="http://rubular.com/?regex='devo+ver+%7Bstring%7D+como+popup'" target="_blank">Rubular</a>
+      
+      | UNUSED
+      <a class="stepdef" href="#">[Collapse]</a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+
+  <div class="details">
+    
+    <div class="meta" style="clear: right;">
+      <div class="file">features/step_definitions/login_steps.rb:32</div>
+    </div>
+    
+    <!-- Comments -->
+    <div>
+      
+    </div>
+    
+
+    <!-- Source Code -->
+    <div class="method_details_list">
+      <table class="source_code">
+        <tr>
+          <td>
+            <pre class="lines">32
+33
+34</pre>
+          </td>
+          <td>
+            <pre class="code"><span class='const'>Entao</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>devo ver {string} como popup</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_message'>message</span><span class='op'>|</span>
+  <span class='id identifier rubyid_expect'>expect</span><span class='lparen'>(</span><span class='ivar'>@screen</span><span class='period'>.</span><span class='id identifier rubyid_popup'>popup</span><span class='period'>.</span><span class='id identifier rubyid_text'>text</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_to'>to</span> <span class='id identifier rubyid_eql'>eql</span> <span class='id identifier rubyid_message'>message</span>
+<span class='kw'>end</span></pre>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Matching Step Instances -->
+    
+    <div class="steps">
+      
+      <div class="undefined">No steps were found to match this step definition.</div>
+      
+    </div>
+    
+  </div>
+
+  <div style="margin: 30px 20px; border-top: 1px dotted #AAA;"></div>
+
+</div>
+
+<div class="title">
+  
+     <a class="control" id="steptransform">[Collapse All]</a>
+     <div style="clear: right;"></div>
+   
+ 
+  
+    <a name="step_transforms">
+  
+  <div class="name">Step Transforms</div>
+</div>
+
+<div class="title">
+  
+ 
+  
+    <a name="undefined_steps">
+  
+  <div class="name">Undefined Steps</div>
+</div>
+
+<div class="transformer">
+  <div class="steps">
+  
+    
+    <div class="step odd">
+      <div>
+        <span class="predicate">Dado </span>
+        <span class="undefined">
+          que acesso a tela de login
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:10
+        </a>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:16
+        </a>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:16
+        </a>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:16
+        </a>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:16
+        </a>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:29
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step even">
+      <div>
+        <span class="predicate">Quando </span>
+        <span class="undefined">
+          adiciono este item ao carrinho
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/cart/add.html">
+          features/specs/cart/add.feature:12
+        </a>
+      
+        <a class="definition" style="clear: right;" href="features/specs/cart/add.html">
+          features/specs/cart/add.feature:18
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step odd">
+      <div>
+        <span class="predicate">Entao </span>
+        <span class="undefined">
+          posso ver a tela minha conta
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:12
+        </a>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:32
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step even">
+      <div>
+        <span class="predicate">Entao </span>
+        <span class="undefined">
+          devo ver &#39;Todos os campos são obrigatórios.&#39; como popup
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:18
+        </a>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:18
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step odd">
+      <div>
+        <span class="predicate">Entao </span>
+        <span class="undefined">
+          devo ver &#39;Usuário e/ou senha inválidos.&#39; como popup
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:18
+        </a>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:18
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step even">
+      <div>
+        <span class="predicate">Entao </span>
+        <span class="undefined">
+          devo ver o alerta &quot;Você adicionou F-Zero ao seu carrinho!&quot;
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/cart/add.html">
+          features/specs/cart/add.feature:13
+        </a>
+      
+        <a class="definition" style="clear: right;" href="features/specs/cart/add.html">
+          features/specs/cart/add.feature:20
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step odd">
+      <div>
+        <span class="predicate">Quando </span>
+        <span class="undefined">
+          eu faço login com &#39;&#39; e &#39;123pass&#39;
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:17
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step even">
+      <div>
+        <span class="predicate">Quando </span>
+        <span class="undefined">
+          eu faço login com &#39;tony@stark.com&#39; e &#39;123pass&#39;
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:17
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step odd">
+      <div>
+        <span class="predicate">Quando </span>
+        <span class="undefined">
+          eu faço login com &#39;adam.warlo#yahoo.com&#39; e &#39;&#39;
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:17
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step even">
+      <div>
+        <span class="predicate">Quando </span>
+        <span class="undefined">
+          logo sem sucesso 2 vezes
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:30
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step odd">
+      <div>
+        <span class="predicate">E </span>
+        <span class="undefined">
+          faço login na última tentativa
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:31
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step even">
+      <div>
+        <span class="predicate">Dado </span>
+        <span class="undefined">
+          que eu quero comprar &quot;F-Zero&quot; do &quot;Super Nintendo&quot;
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/cart/add.html">
+          features/specs/cart/add.feature:11
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step odd">
+      <div>
+        <span class="predicate">Quando </span>
+        <span class="undefined">
+          eu faço login com &quot;tony@stark.com&quot; e &quot;pass123&quot;
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:11
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step even">
+      <div>
+        <span class="predicate">Quando </span>
+        <span class="undefined">
+          eu faço login com &#39;adam.warlo#yahoo.com&#39; e &#39;123pass&#39;
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/login.html">
+          features/specs/login.feature:17
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step odd">
+      <div>
+        <span class="predicate">Dado </span>
+        <span class="undefined">
+          que eu quero comprar &quot;Golden Axe&quot; do &quot;Mega Driver&quot;
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/cart/add.html">
+          features/specs/cart/add.feature:17
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    <div class="step even">
+      <div>
+        <span class="predicate">Mas </span>
+        <span class="undefined">
+          preciso fazer login para adicionar o produto
+        </span>
+      </div>
+      
+        <a class="definition" style="clear: right;" href="features/specs/cart/add.html">
+          features/specs/cart/add.feature:19
+        </a>
+      
+      <div style="clear: both;"></div>
+    </div>
+    
+    
+  </div>
+</div>
+</div>
+
+      <div id="footer">
+  Generated on Thu Oct 24 17:42:21 2019 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.20 (ruby-2.5.6).
+</div>
+
+    </div>
+  </body>
+</html>

@@ -30,5 +30,5 @@ Entao('posso ver a tela minha conta') do
 end
 
 Entao('devo ver {string} como popup') do |message|
-  expect(@screen.login.popup.text).to eql message
+  expect(@screen.popup.text).to eql message
 end

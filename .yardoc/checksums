@@ -1,0 +1,10 @@
+features/specs/login.feature bb9a78d92a6d1c447c332d23bcd5d4e5248beef5
+features/specs/cart/add.feature 34a450e85ddddc1bd31e6894bb7c596aa55d9635
+features/support/env.rb bfbd28bcdf6af38620084ff6e407abf1b1135967
+features/support/hooks.rb 3e26283095d375b6db653d9c2ab84bc9f4a39419
+features/support/helpers/api.rb 6ac8dd2f23c75bb6552d87136814c810d0478cc2
+features/support/screens/ios.rb fb38180ef3fa330fd6a15f63f06591c2c523d22d
+features/support/screens/droid.rb ba5bf23f33ac8f438933e11f61ca67b0692117bf
+features/step_definitions/cart_steps.rb 4f8f9cc43786450ef0ca7872f86cb0427e9e3867
+features/step_definitions/login_steps.rb 677bbd87ea102ec15ba2c80bd319a2233982d642
+features/support/screens/android/screens.rb 124b4b30ed1d47003b3d5ad9dfff012214eeacae

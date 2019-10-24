@@ -1,9 +1,8 @@
 [caps]
+platformName = "Android"
+deviceName = "VirtualDevice"
+udid = "192.168.148.102:5555"
 app = "C:\\QANinja\\appium\\app-debug.apk"
 appPackage = "qaninja.com.pixel"
 appActivity = "qaninja.com.pixel.SplashScreen"
 automationName = "uiautomator2"
-deviceName = "VirtualDevice"
-platformName = "Android"
-fullReset = true
-udid = "RX8M508ZH7A"
